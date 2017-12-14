@@ -14,7 +14,7 @@ var inherits = require('util').inherits;
 var HookedWalletProvider = require('./hooked-wallet.js');
 var EthTx = require('ethereumjs-tx');
 var ethUtil = require('ethereumjs-util');
-var sigUtil = require('eth-sig-util');
+var sigUtil = require('../util/eth-sig-util.js');
 
 module.exports = HookedWalletEthTxSubprovider;
 
